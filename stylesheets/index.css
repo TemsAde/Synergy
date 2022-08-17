@@ -1,0 +1,41 @@
+/* CONTENT
+1. General Styles
+2. Home Page */
+
+
+/* Home Page */
+
+/* ****************************** */
+
+
+
+/* Navbar Menu */
+.navbar {
+    position: absolute;
+    height: 75px;
+    margin-top: -1px;
+    background-color: #0D1020;
+}
+
+.selectors{
+    font-weight: 100;
+}
+
+/* header row */
+.header {
+    background: url(./Images/Rectangle\ 24.png) ;
+    max-width: 100%;
+    width: 1920px;
+    height: 613px;
+    
+}
+
+.sub-row {
+    background: url(./Images/subscribe\ bar.png);
+    height: 212px;
+}
+
+.footer {
+    background-color: #0D1020;
+    height: 320px;
+}
