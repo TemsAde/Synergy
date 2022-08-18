@@ -6,15 +6,40 @@
 /* Home Page */
 
 /* ****************************** */
-
-
-
+body{
+    background-color:rgb(187, 241, 223);
+    }
 /* Navbar Menu */
-.navbar {
-    position: absolute;
-    height: 75px;
+nav {
+    height: 76px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    overflow: hidden;
     margin-top: -1px;
-    background-color: #0D1020;
+    background-color: #0d1020;
+}
+
+.nav-c {
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 100px;
+    justify-content:space-between;
+    gap: 50px;
+    background-color: #ffffff;
+    max-width: 750px;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+.nav-item:hover {
+    background-color:aquamarine;
+    border-radius: 15px;
+    max-height: 50px;
+    align-self: center;
 }
 
 .selectors{
@@ -23,15 +48,17 @@
 
 /* header row */
 .header {
-    background: url(./Images/Rectangle\ 24.png) ;
+    background: url(../Images/header-p.png) ;
     max-width: 100%;
-    width: 1920px;
-    height: 613px;
+    width: 1900px;
+    height: 512px;
+    border-radius: 0px 0px 250px 0px;
+    margin-bottom: 50px;
     
 }
 
 .sub-row {
-    background: url(./Images/subscribe\ bar.png);
+    background: url(../Images/Rectangle\ 19.png);
     height: 212px;
 }
 

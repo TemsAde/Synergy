@@ -9,14 +9,14 @@
     <!-- Styles -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
-	<link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./stylesheets/index.css" rel="stylesheet">
 </head>
 <body>
 
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg" style="background-color: #0D1020;">
+    <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
             <img src="./Images/logo header.svg" alt="">
         </a>
@@ -25,7 +25,7 @@
         </button>
         <div></div>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="nav-c collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link selectors" href="#">Home <span class="sr-only">(current)</span></a>
@@ -43,11 +43,14 @@
                 <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <a href="#">Subscribe</a>
+        </div>
+
+      <div class="nav-s">
+        <a href="#">Subscribe</a>
           <div>
            <img src="./Images/Frame 15.svg" alt="">
           </div>
-        </div>
+      </div>
 
     </nav> 
 
@@ -74,8 +77,31 @@
         </div>
         
     </div>
-  </header>
-    <div class="container">
+  </header>   
+
+  <!-- Header close -->
+
+
+  <!-- About Summary -->
+
+    <div class="container b-summary">
+     <h1>Synergy Specialty </h1>
+
+      <article>
+        <p>Synergy Specialty limited was incorporated in Nigeria in August 2015, to explore the vast potential of the healthcare industry taking advantage of her management team that has comprehensive insight and competence in the pharmaceutical/ healthcare industry. In keeping with its core business philosophy which is partnership that works, the company is into strategic alliance with local and international companies. 
+          We are passionate about applying cutting edge technologies to discover and develop innovative products that will enhance the quality of life of people from all walks of life.        
+        </p>
+
+        <p>
+          As our name depicts, we believe in partnership that works. Therefore, we are positioned to maintain a strong bond with our customers, investors and other stakeholders to ensure that we deliver on our promise to meet existing and future needs of the healthcare industry.
+         Our strategic intent is to become a global enterprise and a trusted household name: this we are confident will be achieved in a short while given our inexorable zeal for excellence and quest for leadership substantiated by the track record of our promoters.
+        </p>
+
+
+      </article>
+    </div> 
+
+    <div class="container-fluid m&v">
         <div class="row">
             <div class="col-md-8">
                 <img src="./Images/m&v.png" alt="">
@@ -100,7 +126,10 @@
 
           <!-- Board Members tab -->
 
-    <div class="container"><h3>Meet the Board</h3></div>
+    <div class="container">
+      <h4>meet our</h4>
+      <h2>Board of Directors</h2>
+    </div>
     <div class="container flex-container">
         <div>
             <a href="board.html">Insert image</a>
@@ -128,56 +157,38 @@
         </div>
     </div>
 
-    <!-- Strategic ALL. Carousel -->
+    <!-- Strategic ALL -->
     <div class="container"><h3>Our Strategic Alliances</h3></div>
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
-                <!-- <div class="carousel-caption d-none d-md-block"> -->
-                    <!-- <h5>Amegh Pharma PVT. Ltd</h5> -->
-                    <!-- <p>founded in July 2007 as a Private Limited Company, incorporated in India under the Companies Act of 1956 by founder and CEO, Mr. Vipul Mohan, who has an MBA from the S.P. Jain Institute of Management and Research, Mumbai, India...</p> -->
-                  <!-- </div> -->
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
-                <!-- <div class="carousel-caption d-none d-md-block"> -->
-                    <!-- <h5>Bhargava Photolab PVT Ltd</h5> -->
-                    <!-- <p>With almost a 100 years of experience in providing healthcare and an unbroken commitment to those who rely on our treatments, India based Bhargava Phytolab has today become one of the world's leading homeopathic company...</p> -->
-                  <!-- </div> -->
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-                <!-- <div class="carousel-caption d-none d-md-block"> -->
-                    <!-- <h5>Top Gloves</h5> -->
-                    <!-- <p>Top Glove is the largest rubber glove manufacturer in the world, producing 20 billion pairs per year and exporting its products to about 170 countries of the world...</p> -->
-                  <!-- </div> -->
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-                <!-- <div class="carousel-caption d-none d-md-block"> -->
-                    <!-- <h5>Himedia</h5> -->
-                    <!-- <p>Himedia Laboratories Pvt Ltd is an India based manufacturer of high quality Biosciences Chemicals , Reagents, Laboratory appliances for the Healthcare, Food , Pharmaceutical and Research Industries</p> -->
-                  <!-- </div> -->
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-                <!-- <div class="carousel-caption d-none d-md-block"> -->
-                    <!-- <h5>Miraflash Nig. Ltd</h5> -->
-                    <!-- <p>Miraflash is a fully indigenous pharmaceutical manufacturing company in Nigeria. The company specializes in the manufacture of beta-lactam antibiotic range of products...</p> -->
-                  <!-- </div> -->
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+      <div class="container">
+        <h5>Amegh Pharma PVT. Ltd</h5>
+        <p>
+          founded in July 2007 as a Private Limited Company, incorporated in India under the Companies Act of 1956 by founder and CEO, Mr. Vipul Mohan, who has an MBA from the S.P. Jain Institute of Management and Research, Mumbai, India...
+        </p>
+        <p class="button">
+        
+            <a class="btn-solid-lg btn-secondary" href="about.html" role="button">LEARN MORE</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Products -->
+
+    <div class="container flex-container">
+      <div class="row">
+        <div class="col-lg-3">
+          Antibiotics
+        </div>
+        <div class="col-lg-3">
+          Antimalaria
+        </div>
+        <div class="col-lg-3">
+          Injections
+        </div>
+        <div class="col-lg-3">
+          Antacids
+        </div>
+      </div>
+
     </div>
 
     <!-- Subscribe bar -->
