@@ -21,6 +21,7 @@
 
 .m-text {
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 .r-text {
@@ -29,14 +30,44 @@
 
 .mm-text {
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.mm-text:hover {
+    background: -webkit-linear-gradient(#5bcf4e, #1e2a69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .s-text {
     font-family: 'poppins', sans-serif;
 }
 
+.g-button {
+    background-color: #70BD68;
+}
 
+.g-button:hover{
+    background-color: #0d1020;
+    color: #ffffff;
+}
 
+.g-button .ti-text:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #0d1020;
+}
+
+.nav-link:hover {
+    color: white;
+}
 
 /* 2. Home Page  */
 
@@ -58,6 +89,8 @@ nav {
     position: fixed;
     z-index: 50;
     top: 0;
+    left: 0;
+    right: 0;
     overflow: hidden;
     margin-top: -1px;
     background-color: #0d1020;
@@ -74,20 +107,82 @@ nav {
 }
 
 .nav-item{
-    padding: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+    border-radius: 15px;
+    height: 50px;
+    align-self: center;
 }
 
 .nav-item:hover {
-    background-color:aquamarine;
-    border-radius: 15px;
-    max-height: 50px;
-    align-self: center;
+    /* background-image: url(../Images/Rectangle\ 19.png);     */
+    background-image: linear-gradient(to bottom, #009647, #2B84A9);
+    background-size:cover;
+    color: #0D1020;
+    
 }
 
 .selectors{
     font-weight: 100;
 }
 
+.nav-s {
+    display: flex;
+    margin-left: 75px;
+}
+
+.searchBox {
+    height: 40px;
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+    margin-top: -20px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #ffffff;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
 /* header row */
 .header {
     background: url(../Images/header-p.png) ;
@@ -101,14 +196,17 @@ nav {
 
 .p-header {
     margin-top: 100px;
+    color: #ffffff;
 }
 
 .small-box {
     margin-top: 25px;
     width: 300px;
+    color: #ffffff;
 }
 .smaller-box {
     margin-top: 10px;
+    color: #ffffff;
 }
 
 .b-summary {
@@ -210,6 +308,8 @@ article{
     padding-bottom: 25px;
     margin-bottom: 50px;
     background-color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #products-h{
@@ -224,12 +324,100 @@ article{
     margin: 10px;
 }
 
+.pro-name {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
 .sub-row {
     background: url(../Images/Rectangle\ 19.png);
-    height: 212px;
+    background-size: cover;
+    height: 280px;
+    
 }
+
+.connect-box {
+     margin-top: 60px;
+}
+
+.sub-form {
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.sub-row .b-text{
+    color: #ffffff;
+}
+
+.sub-row .m-text {
+    color: #ffffff;
+}
+
+ .containe{ 
+    border: 1px solid #A3A3A3;
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .sub-input {
+      width: 380px;
+      height: 40px;
+      height: 20px; */
+      padding-right: 50px;
+      padding-left: 15px;
+      font-size: 20px;
+      border: 0px solid transparent;
+      background-color: transparent;
+      color: #666;
+  }
+  
+  input[type="submit"] {
+      height: 40px;
+      width: 110px;
+      cursor: pointer;
+      background: linear-gradient(to right, red, yellow);
+      color: white;
+      border: 0;
+      font-size: 20px;
+      padding-right: 30px
+      padding-left: 30px;
+      -webkit-appearance: none;
+      border-radius: 25px;
+      transition: background-color 0.5s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #7DAEDE;
+  }
+  textarea:focus, input:focus{
+      outline: none;
+  }
 
 .footer {
     background-color: #0D1020;
-    height: 320px;
+
+    height: 350px;
+}
+
+.social-icons {
+margin-top: 75px;
+}
+
+.footer .m-text {
+    color: #ffffff;
+}
+
+.footer-t {
+    color: #c0c0c0;
+}
+
+.footer-link {
+    color: #c0c0c0;
+}
+
+hr {
+    height: 1px;
+    background-color: #c0c0c0;
 }

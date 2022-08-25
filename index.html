@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./stylesheets/all.css">
+    <script src="https://kit.fontawesome.com/c3a1b05c9b.js" crossorigin="anonymous"></script>
     <link href="./stylesheets/index.css" rel="stylesheet">
 </head>
 <body>
@@ -40,16 +40,21 @@
               <a class="nav-link" href="#">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
 
       <div class="nav-s">
         <a href="#">Subscribe</a>
-          <div>
-           <img src="./Images/Frame 15.svg" alt="">
-          </div>
+        <div class="searchBox">
+
+          <input class="searchInput"type="text" name="" placeholder="Search">
+          <button class="searchButton" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
       </div>
 
     </nav> 
@@ -68,8 +73,8 @@
                     <li>Fast action pharmaceutical drugs</li>
                     <li>Team of Experienced professionals</li>
                 </ul>
-                <div class="button g-button">
-                    <a class="btn-solid-lg btn-secondary" href="about.html" role="button">Read more about us </a> 
+                <div>
+                    <a href="about.html"> <button class="btn g-button"> <span class="ti-text"> Read more about us </span> <i class="fa-solid fa-circle-right"></i></button></a> 
                 </div>
             </div>
 
@@ -97,11 +102,11 @@
             <div class="col-md-4" id="mv-text">
               <div class="Mission">  
                  <h1 class="b-text">Our Mission</h1>
-                 <p class="r-text">To satisfy emerging healthcare needs with innovative solutions provided by professionals employing up-to-date technology to the benefit of the stakeholders.</p>
+                 <p class="s-text">To satisfy emerging healthcare needs with innovative solutions provided by professionals employing up-to-date technology to the benefit of the stakeholders.</p>
               </div>
               <div class="Vision">
                   <h1 class="b-text">Our Vision</h1>
-                  <p class="r-text">To be the most preferred provider of Pharmaceutical and Healthcare solutions. </p>
+                  <p class="s-text">To be the most preferred provider of Pharmaceutical and Healthcare solutions. </p>
               </div>
                 <!-- placeholder -->
             </div>
@@ -145,8 +150,8 @@
         </div>
     </div>
     <div class="container">
-      <div class="button g-button">
-         <a class="btn-solid-lg btn-secondary" href="about.html" role="button">Read more</a>
+      <div class="button">
+        <a href="about.html"> <button class="btn g-button"> Read more <i class="fa-solid fa-circle-right"></i></button></a> 
       </div>
     </div>
 
@@ -155,12 +160,13 @@
       <div class="container-fluid" id="SA">
         <h5 class="r-text">Amegh Pharma PVT. Ltd</h5>
         <p class="s-text">
-          founded in July 2007 as a Private Limited Company, incorporated in India under the Companies Act of 1956 by founder and CEO, Mr. Vipul Mohan, who has an MBA from the S.P. Jain Institute of Management and Research, Mumbai, India...
+          Amegh Pharma was founded in July 2007 as a Private Limited Company, incorporated in India under the Companies Act of 1956.
+         Its founder and CEO is Mr. Vipul Mohan, who is an MBA from the S.P. Jain Institute of Management and Research, Mumbai, India, which has been consistently ranked among the top 10 business schools of India. He has over 16 years experience of International Business, all around the world, gained by his terms at different levels at some of the top large and mid-sized pharmaceutical companies in India like Ranbaxy, Lupin, Ajanta and MJ........
+
         </p>
-        <p class="button">
-        
-            <a class="btn-solid-lg btn-secondary" href="about.html" role="button">Read More</a>
-        </p>
+        <div class="button">
+          <a href="about.html"> <button class="btn g-button"> Read more <i class="fa-solid fa-circle-right"></i></button></a> 
+        </div>
       </div>
     </div>
 
@@ -172,24 +178,25 @@
       <div class="row">
         <div class="col-lg-2.5">
           <img class="img-pro" src="./Images/Component 32.png" alt="">
-          <div class="mm-text">Antibiotics</div>
+          <div class="pro-name mm-text">Antibiotics</div>
         </div>
         <div class="col-lg-2.5">
           <img class="img-pro" src="./Images/Component 32.png" alt="">
-          <div class="mm-text">Antimalaria</div>
+          <div class="pro-name mm-text">Antimalaria</div>
         </div>
         <div class="col-lg-2.5">
           <img class="img-pro" src="./Images/Component 32.png" alt="">
-          <div class="mm-text">Injections</div>
+          <div class="pro-name mm-text">Injections</div>
         </div>
         <div class="col-lg-2.5">
           <img class="img-pro" src="./Images/Component 32.png" alt="">
-          <div class="mm-text">Antacids</div>
+          <div class="pro-name mm-text">Antacids</div>
         </div>
       </div>
-      <div class="button g-button">
-        <a class="btn-solid-lg btn-secondary" href="about.html" role="button">Read More</a>
-    </div>
+
+      <p class="button">
+        <a href="about.html"> <button class="btn g-button"> Read more <i class="fa-solid fa-circle-right"></i></button></a> 
+      </p>
 
     </div>
 
@@ -198,16 +205,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="text">Connect with us &</div>
-                <h3 class="b-text">Subscribe now for updates on our products</h3>
+                <div class="m-text connect-box"> <h5>Connect with us & <h5></div>
+                <h1 class="b-text">Subscribe now for updates on our products</h1>
             </div>
             <div class="col-md-6">
-                <div>social sps</div>
-                <div>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Email address" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
-                      </form>
+                <div class="sub-form">
+                  <div class="containe"><input class="sub-input" type="text" placeholder="Newsletter Subscription"><input type="submit" value="Subscribe"></div>
                 </div>
             </div>
         </div>
@@ -219,10 +222,10 @@
         <div class="container footer-container">
             <div class="row">
                 <div class="col-md-2">
-                    <h4>Logo Insert#</h4>
+                    <img src="./Images/logo footer.svg" alt="">
                 </div>
                 <div class="col-md-2">
-                    <div>Useful links</div>
+                    <h4 class="m-text">Useful links</h4>
                     <p><a href="#" class="footer-link">Home</a> </p>
                     <p><a href="#" class="footer-link">About Us</a> </p>
                     <p><a href="#" class="footer-link">Contact Us</a> </p>
@@ -230,28 +233,36 @@
                     <p><a href="#" class="footer-link">Our Library</a> </p>
                 </div>
                 <div class="col-md-2">
-                    <div>
+                    <h4 class="m-text">
                         Office Number
-                    </div>
-                    <p> +234 1 453 3026 </p>
-                    <p> +234 803 302 9595</p>
+                    </h4>
+                    <div class="footer-t"> +234 1 453 3026 </div>
+                    <div class="footer-t"> +234 803 302 9595</div>
                 </div>
                 <div class="col-md-3">
-                    <h4>Email</h4>
+                    <h4 class="m-text">Email</h4>
                     <a href="#">contact@synergygroup.ng</a>
                     <a href="#">maadeoti@synergygroup.ng</a>
+
+                    <p class="social-icons"> 
+                      <span><a href="#"><i class="fa-brands fa-2x fa-square-facebook"></i></a></span>
+                      <span><a href="#"><i class="fa-solid fa-2x fa-square-envelope"></i></a></span>
+                      <span><a href="#"><i class="fa-brands fa-2x fa-linkedin"></i></a></span>
+                      <span><a href="#"><i class="fa-brands fa-2x fa-square-twitter"></i></a></span>
+                      <span><a href="#"><i class="fa-brands fa-2x fa-square-instagram"></i></a></span>
+                    </p>
                 </div>
                 <div class="col-md-3">
-                    <h4>Address</h4>
-                    <p>We are located at Plot 11, OPIC Estate, Channels TV Road, Off Lagos-Ibadan Expressway, Isheri North.</p>
+                    <h4 class="m-text">Registered Office </h4>
+                    <p class="footer-t">We are located at Plot 11, OPIC Estate, Channels TV Road, Off Lagos-Ibadan Expressway, Isheri North.</p>
                 </div>
             </div>
         </div>
 
          <!-- Footer tab -->
-
-       <hr>
-       <tfoot class="p-tiny">@ 2015-2022 Synergy Specialty. All rights reserved. Our website services, content, and products are for informational purposes only. Synergy Specialty does not provide medical advice, diagnosis, or treatment. </tfoot>
+          <hr>
+      
+       <div class="container ti-text footer-t" style="color: #ffffff;">@ 2015-2022 Synergy Specialty. All rights reserved. Our website services, content, and products are for informational purposes only. Synergy Specialty does not provide medical advice, diagnosis, or treatment. </div>
     </footer>
 
     <!-- Footer tab -->
