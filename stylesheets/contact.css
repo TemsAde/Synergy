@@ -197,8 +197,14 @@ nav {
 margin-top: 75px;
 }
 
+.ft-logo {
+    margin-top: 50px;
+}
+
 .footer .m-text {
     color: #ffffff;
+    padding-top: 20px;  
+    
 }
 
 .footer-t {
