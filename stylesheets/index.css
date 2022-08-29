@@ -365,7 +365,7 @@ article{
   .sub-input {
       width: 380px;
       height: 40px;
-      height: 20px; */
+      height: 20px; 
       padding-right: 50px;
       padding-left: 15px;
       font-size: 20px;
@@ -382,7 +382,7 @@ article{
       color: white;
       border: 0;
       font-size: 20px;
-      padding-right: 30px
+      padding-right: 30px;
       padding-left: 30px;
       -webkit-appearance: none;
       border-radius: 25px;
@@ -394,6 +394,11 @@ article{
   textarea:focus, input:focus{
       outline: none;
   }
+
+  #Message {
+    border-radius: 20%;
+  }
+
 
 .footer {
     background-color: #0D1020;
