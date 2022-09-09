@@ -189,6 +189,13 @@ body{
     padding: 0 6px;
 }
 }
+
+
+
+
+
+
+
 /* header row */
 .header {
     background: url(../Images/header-p.png) ;
@@ -382,13 +389,13 @@ article{
       height: 40px;
       width: 110px;
       cursor: pointer;
-      background: linear-gradient(to right, red, yellow);
+      background: linear-gradient(to right, red, yellow );
       color: white;
-      text-align: center;
+      /* text-align: center; */
       border: 0;
       font-size: 20px;
       padding-right: 30px;
-      padding-left: 30px;
+      padding-left: 15px;
       -webkit-appearance: none;
       border-radius: 25px;
       transition: background-color 0.5s ease;
@@ -437,6 +444,46 @@ hr {
     height: 1px;
     background-color: #c0c0c0;
 }
+
+
+
+
+/* POP UP */
+
+.popup {
+	background: rgba(100, 100, 100, 0.6);
+	position: fixed;
+	display: none;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0; }
+
+	.wrapper {
+		/* max-width: 600px; */
+		width: 50%;
+        height: 250px;
+		position: fixed;
+		transform: translate(-50%, -50%);
+  		left: 50%;
+	    top: 50%;
+        background-image: linear-gradient(to right, #0d1020, #1e93e9, #0aff68);
+		padding: 30px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 10px 0px rgba(#000000, 0.4);
+	}
+
+    #popupTitle {
+        color: #ffffff;
+    }
+
+    #popText {
+        margin-top: 50px;
+    }
+
+
+
 
 
 /* MEDIA QUERIES */

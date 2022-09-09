@@ -47,7 +47,26 @@
         </div>
 
       <div class="nav-s">
-        <a href="#">Subscribe</a>
+        <!-- pop up -->
+
+        <a href="#" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup')" aria-controls="myPopup" aria-label="Open popup">Subscribe</a>
+
+        <!-- pop up card -->
+
+        <div class="popup" id="myPopup" aria-hidden="true" onClick="if(event.target == this){closePopup('#myPopup');}">
+          <div class="wrapper" aria-labelledby="popupTitle" aria-describedby="popupText" aria-modal="true">
+            <h2 id="popupTitle">Subscribe to our News Letter</h2>
+            <p id="popText"> 
+              <div class="containe"><input class="sub-input" type="text" placeholder="Newsletter Subscription"><input type="submit" value="Subscribe"></div>
+            </p>
+            <!-- <button id="closePopup" onClick="closePopup('#myPopup');" aria-label="Close popup">Close</button> -->
+          </div>
+        </div>
+
+
+
+
+
         <div class="searchBox">
 
           <input class="searchInput"type="text" name="" placeholder="Search">
@@ -285,5 +304,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
